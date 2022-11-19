@@ -4,5 +4,5 @@ const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
-  db.sync({ force: true });
+  db.sync({ force: true }); //elimina la tabla y la vuelve a crear
 });
